@@ -1,5 +1,9 @@
 # RasaDocker
 
+[![License]](https://github.com/jharrilim/RasaDocker/blob/master/LICENSE)
+[![Readme]](https://github.com/jharrilim/RasaDocker#readme)
+[![Docker Pulls]](https://hub.docker.com/r/josephharrisonlim/rasa)
+
 ## Build, Run, Publish
 
 ```sh
@@ -22,3 +26,7 @@ RUN  /bin/bash -cl " \
      conda install -y -c conda-forge speechrecognition"
 CMD  ["/bin/bash", "-cl", "rasa"]
 ```
+
+[License]: https://img.shields.io/github/license/jharrilim/RasaDocker?style=flat-square&logo=github
+[Readme]: https://img.shields.io/badge/GitHub-Readme-blue?style=flat-square&logo=github
+[Docker Pulls]: https://img.shields.io/docker/pulls/josephharrisonlim/rasa?style=flat-square&logo=docker
